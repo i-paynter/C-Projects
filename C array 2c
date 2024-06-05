@@ -41,5 +41,8 @@ int main()
     printf("%d ", array[k]);
   }
 
+//free the memory
+free(array);
+
   return 0;
 }
